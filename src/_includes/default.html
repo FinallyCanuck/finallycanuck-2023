@@ -8,9 +8,14 @@
       {{title}}
     </title>
     
-    <meta name="description" content="{% if description %}{{description}}{% else %}{{settings.description}}{% endif %}"/>
+    <meta name="description" content="{% if description %}{{description}}{% else %}{{settings.description}}{% endif %}" />
+    
+    
     <meta property="og:title" content="{{title}}" />
+    <meta property="og:description" content="{% if description %}{{description}}{% else %}{{settings.description}}{% endif %}" />
     <meta property="og:image" content="{{settings.image}}" />
+    <meta property="og:image:type" content="image/webp" />
+    <meta property="og:image:alt" content="FinallyCanuck.com logo" />
 
 
     {% block head %}{% endblock %}
