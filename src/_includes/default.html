@@ -7,9 +7,9 @@
     <title>
       {{title}}
     </title>
-    {% if description %}
-      <meta name="description" content="{{description}}"/>
-    {% endif %}
+    
+      <meta name="description" content="{% if description %}{{description}}{% else %}{{settings.description}}{% endif %}"/>
+    
     {% block head %}{% endblock %}
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
     {% if prism == true %}
