@@ -4,3 +4,5 @@ items:
     url: "/about"
   - text: Posts
     url: "/blog"
+  - text: Mastodon
+    url: "/mastodon"
