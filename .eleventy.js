@@ -2,6 +2,7 @@ const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -37,6 +38,9 @@ module.exports = function (eleventyConfig) {
 
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
+  
+  // Adds RSS feed
+  eleventyConfig.addPlugin(pluginRss);
 
   // Minify HTML
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
