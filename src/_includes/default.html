@@ -8,8 +8,11 @@
       {{title}}
     </title>
     
-      <meta name="description" content="{% if description %}{{description}}{% else %}{{settings.description}}{% endif %}"/>
-    
+    <meta name="description" content="{% if description %}{{description}}{% else %}{{settings.description}}{% endif %}"/>
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:image" content="{{settings.image}}" />
+
+
     {% block head %}{% endblock %}
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
     {% if prism == true %}
