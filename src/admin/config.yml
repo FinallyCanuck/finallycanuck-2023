@@ -7,6 +7,7 @@ backend:
   # repo: surjithctly/neat-starter
 media_folder: "src/static/img"
 public_folder: "/static/img"
+logo_url: https://finallycanuck.com/static/img/FinallyCanuck.webp
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
