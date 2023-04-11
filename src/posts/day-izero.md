@@ -6,4 +6,4 @@ date: 2023-04-11T18:38:01.972Z
 tags:
   - tuesday
 ---
-Today will be day zero as the iPhone 11 is not en route. Watch this space. More to come.
+Today will be day zero as the iPhone 11 is now en route. Watch this space. More to come.
