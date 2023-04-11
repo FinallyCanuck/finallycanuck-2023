@@ -16,6 +16,7 @@ collections:
     name: "blog"
     folder: "src/posts"
     create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     editor:
       preview: false
     fields:
