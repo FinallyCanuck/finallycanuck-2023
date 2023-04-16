@@ -18,5 +18,12 @@
     "background_color": "#fdfdfd",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#B91C1C"
+    "theme_color": "#B91C1C",
+    "shortcuts": [
+        {
+            "name": "All posts",
+            "short_name": "Posts",
+            "url": "/blog/?source=pwa" 
+        }
+    ]
   }
