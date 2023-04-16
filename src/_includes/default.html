@@ -14,9 +14,9 @@
     <meta property="og:title" content="{{title}}" />
     <meta
       property="og:description"
-      content="{% if description %}{{description}}{% else %}{{settings.description}}{% endif %}"
+      content="{{ description or settings.description }}"
     />
-    <meta property="og:image" content="{% if image %}{{ image }} {% else %} {{settings.image}} {% endif %}" />
+    <meta property="og:image" content="{{ image or settings.image }}" />
     {% if not image %} <meta property="og:image:type" content="image/png" />
     <meta property="og:image:alt" content="FinallyCanuck.com icon" />
     {% endif %}
