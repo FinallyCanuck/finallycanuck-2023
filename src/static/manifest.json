@@ -5,12 +5,26 @@
       {
         "src": "/static/img/icon-192.png",
         "type": "image/png",
-        "sizes": "192x192"
+        "sizes": "192x192",
+        "purpose": "any"
       },
       {
         "src": "/static/img/icon-512.png",
         "type": "image/png",
-        "sizes": "512x512"
+        "sizes": "512x512",
+        "purpose": "any"
+      },
+      {
+        "src": "/static/img/maskable_icon_x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/static/img/maskable_icon_x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
       }
     ],
     "id": "/?source=pwa",
@@ -18,12 +32,13 @@
     "background_color": "#fdfdfd",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#B91C1C",
+    "theme_color": "#c42218",
     "shortcuts": [
         {
             "name": "All posts",
             "short_name": "Posts",
-            "url": "/blog/?source=pwa" 
+            "url": "/blog?source=pwa",
+            "icons": [{ "src": "/static/img/maskable_icon_x96.png", "sizes": "96x96" }] 
         }
     ]
   }
