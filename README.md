@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5e9e887d-354e-4bbc-a965-1f57881d7040/deploy-status)](https://app.netlify.com/sites/finallycanuck/deploys)
+
 # Neat Starter
 
 Starter Template for **N**etlify CMS, **E**leventy, **A**lpine JS & **T**ailwind CSS
