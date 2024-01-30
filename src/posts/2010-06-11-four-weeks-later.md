@@ -6,7 +6,8 @@ categories:
   - friday
 tags:
   - week_four
-image: https://images.unsplash.com/photo-1580892934698-cd589f9538a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NjAyODl8MHwxfHNlYXJjaHwxfHxmb3VyJTIwd2Vla3MlMjBsYXRlcnxlbnwwfHx8fDE3MDY1ODQyNzB8MA&ixlib=rb-4.0.3&q=80&w=1080
+image: https://images.unsplash.com/photo-1580892934698-cd589f9538a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NjAyODl8MHwxfHNlYXJjaHwyfHxmb3VyJTIwd2Vla3N8ZW58MHx8fHwxNzA2NTg0ODkxfDA&ixlib=rb-4.0.3&q=80&w=1080
+image-credit: Photo by Sincerely Media on Unsplash
 ---
 Well, it's been four weeks since I said goodbye to my friends at my previous employer. Here's a summary of what's taken place since then.
 
