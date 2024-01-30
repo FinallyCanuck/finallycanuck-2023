@@ -16,7 +16,7 @@ prism: true
   {% if image %}
   <img src="{{ image }}" class="h-auto max-w-xs rounded-lg mx-auto"  />
   
-  {% if imagecredit %}<p class="text-center">{{ imagecredit }}</p>{% endif %}
+  {% if imagecredit %}<p class="text-center text-xs">{{ imagecredit }}</p>{% endif %}
 
   {% endif %}
   <article class="prose lg:prose-xl my-4 mx-auto">{{ content | safe }}</article>
