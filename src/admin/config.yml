@@ -33,6 +33,7 @@ collections:
           required: false,
           allow_multiple: false,
         }
+      - { label: "Featured Image credit", name: "image-credit", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - widget: select
         label: "tags"
