@@ -3,6 +3,7 @@ const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -24,6 +25,16 @@ module.exports = function (eleventyConfig) {
   // To Support .yaml Extension in _data
   // You may remove this if you can use JSON
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin), {
+    baseHref: "https://finallycanuck.com/",
+    extensions: "jpg, gif, png",
+    filters: {
+      base: "htmlBaseUrl",
+      html: "transformWithHtmlBase",
+      pathPrefix: "addPathPrefixToUrl",
+    },
+  };
 
   // Copy Static Files to /_Site
   eleventyConfig.addPassthroughCopy({
