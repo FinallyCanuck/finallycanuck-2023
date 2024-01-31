@@ -40,8 +40,9 @@
     
     <content type="html">
       {%- if post.data.image -%}
-        <img src="{{ post.data.image | htmlBaseUrl("https://finallycanuck.com/") }}" {%- if imagecredit -%}
-          alt="{{ post.data.imagecredit }}" {%- endif -%}>
+        <img src="{{ post.data.image | htmlBaseUrl("https://finallycanuck.com/") }}">
+        
+        </img>
       {%- endif -%}
 
       {%- if normalizeAbsoluteUrls -%}
