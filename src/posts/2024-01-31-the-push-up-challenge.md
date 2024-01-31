@@ -10,4 +10,4 @@ tags:
 ---
 Mental health issues are very important to me. In February (that starts tomorrow!), I will be doing 2,000 push-ups (press-ups) in support of the [Canadian Mental Health Association](https://cmha.ca/).
 
-Visit my donor page at [https://www.thepushupchallenge.ca/fundraiser/peterrandazzo/the-push-up-challenge](https://www.thepushupchallenge.ca/fundraiser/peterrandazzo/the-push-up-challenge) to donate or cheer me on.
+Visit my donor page at [https://www.thepushupchallenge.ca/fundraiser/peterrandazzo/the-push-up-challenge](https://www.thepushupchallenge.ca/fundraiser/peterrandazzo/the-push-up-challenge) to donate or learn more.
