@@ -35,6 +35,19 @@
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
+    
+    {%- if post.data.image -%}
+    {% set absoluteImageUrl %}{{ post.data.image | url | absoluteUrl(post.data.image) }}{% endset %}
+      <image>
+        <link>{{ absolutePostUrl }}</link>
+        <title>{{ post.data.title }}</title>
+        <url>https://finallycanuck.com{{ absoluteImageUrl }}</url>
+        {%- if imagecredit -%}
+        <description>{{ post.data.imagecredit }}</description>
+        {%- endif -%}    
+      </image>
+    {%- endif -%}
+    
     <content type="html">
       {%- if normalizeAbsoluteUrls -%}
         {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
