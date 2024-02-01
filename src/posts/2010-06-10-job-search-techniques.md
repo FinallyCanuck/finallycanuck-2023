@@ -1,13 +1,12 @@
 ---
-title: "Job Search Techniques"
+title: Job Search Techniques
 date: 2010-06-10
-categories: 
-  - "daily-thoughts"
-  - "thursday"
-tags: 
-  - "job_search"
+categories:
+  - daily-thoughts
+  - thursday
+tags:
+  - job_search
 ---
-
 I have been using four primary sources in my job search. Each is simply a repository.
 
 1. [Workopolis.com](http://www.workopolis.com/): The most popular source of employment opportunities in Canada.
