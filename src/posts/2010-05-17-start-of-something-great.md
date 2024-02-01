@@ -1,14 +1,13 @@
 ---
-title: "Start of something...great?"
+title: Start of something...great?
 date: 2010-05-17
-categories: 
-  - "daily-thoughts"
-  - "monday"
-tags: 
-  - "background"
-  - "day_one"
+categories:
+  - daily-thoughts
+  - monday
+tags:
+  - background
+  - day_one
 ---
-
 I've made a change in my life that is quite controversial. I said goodbye to my employer of over 14 years.
 
 Why would I do such a thing?  There is an answer other than "I'm officially insane."
