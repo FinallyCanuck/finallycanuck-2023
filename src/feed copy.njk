@@ -1,0 +1,43 @@
+---json
+{
+  "permalink": "feed2.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "FinallyCanuck.com",
+    "subtitle": "I am writing about things that likely only matter to me, because this is my space and not yours.",
+    "language": "en-CA",
+    "url": "https://finallycanuck.com/",
+    "icon": "https://finallycanuck.com/favicon.ico",
+    "author": {
+      "name": "Peter Randazzo",
+      "email": "pete@randazzo.ca"
+    }
+  }
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ metadata.title }}</title>
+    <description>{{ metadata.subtitle }}</description>
+    <link>{{ metadata.url }}</link>
+    <language>{{ metadata.language }}</language>
+    <copyright>Copyright © {{ settings.name }} {{ helpers.currentYear() }}.</copyright>
+    <lastBuildDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</lastBuildDate>
+    <webMaster>pete@randazzo.ca</webMaster>
+    <image>
+      <title>{{ settings.name }}</title>
+      <url>{{ settings.image }}</url>
+    </image>
+    {%- for post in collections.post | reverse %}
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <description>{{ post.data.description }}</description>
+      <guid isPermalink="true">{{ absolutePostUrl }}</guid>
+      <link>{{ absolutePostUrl }}</link>
+      <pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>
