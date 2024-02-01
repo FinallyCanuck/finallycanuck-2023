@@ -1,12 +1,11 @@
 ---
-title: "Making the necessary trade-offs"
+title: Making the necessary trade-offs
 date: 2010-05-19
-categories: 
-  - "wednesday"
-tags: 
-  - "tradeoffs"
+categories:
+  - wednesday
+tags:
+  - tradeoffs
 ---
-
 In work, as in the rest of your life, you make trade-offs.
 
 Some trade-offs are small, such as choosing french fries over a salad. Others are bigger, such as spending the money necessary to send your child to private school vs. sending them to public school.
