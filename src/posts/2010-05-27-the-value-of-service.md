@@ -1,12 +1,11 @@
 ---
-title: "The value of service"
+title: The value of service
 date: 2010-05-27
-categories: 
-  - "thursday"
-tags: 
-  - "service"
+categories:
+  - thursday
+tags:
+  - service
 ---
-
 When friends and colleagues ask your opinion about a business, regardless of industry, the discussion typically turns to the level of service you received.
 
 Many times you see this in a retail environment. Different department stores can sell you some of the same products. The pair of Levi's jeans you can buy at Sears®/MD is the same as the pair you can buy at The Bay®. Since the pairs are the same, the next logical point of comparison is price. Let's says that both stores are having a sale and the price is $49.99. Finally, let's assume that it takes the same level of effort to travel to either department store.
