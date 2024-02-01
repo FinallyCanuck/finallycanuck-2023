@@ -6,7 +6,7 @@ tags:
   - facebook
   - Tuesday
 image: /static/img/joshua-hoehne-uo2zxh4xoly-unsplash.jpg
-imagecredit: Photo by <a href="https://unsplash.com/@mrthetrain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Hoehne</a> on <a href="(https://unsplash.com/s/photos/facebook?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+imagecredit: Photo by <a href="https://unsplash.com/@mrthetrain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Hoehne</a> on <a href="https://unsplash.com/s/photos/facebook?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ---
 I stopped actively participating in Facebook's social media platform earlier this year. However, I'm now going through the arduous task of deleting my content. It's a long process, especially since I was active on the site for nearly 13 years.
 
