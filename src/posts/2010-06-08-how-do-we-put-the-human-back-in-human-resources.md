@@ -1,13 +1,12 @@
 ---
-title: "How do we put the human back in human resources?"
+title: How do we put the human back in human resources?
 date: 2010-06-08
-categories: 
-  - "daily-thoughts"
-  - "tuesday"
-tags: 
-  - "job_search"
+categories:
+  - daily-thoughts
+  - tuesday
+tags:
+  - job_search
 ---
-
 In my job search, I've come to understand a bit more about the impersonal presentation of the modern recruiting process.
 
 Of course, all applications are submitted via the Internet. That makes sense from an efficiency standpoint and I have no issue with that. However, for the most part, larger organizations are using one of two online tools to facilitate this process, [Taleo](http://www.taleo.com) and [Njoyn](http://www.njoyn.com).
