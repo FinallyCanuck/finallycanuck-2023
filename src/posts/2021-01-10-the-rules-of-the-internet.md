@@ -6,9 +6,9 @@ featuredImage: /img/uploads/markus-spiske-rwkhlvk-bsm-unsplash.jpg
 tags:
   - social-media
   - Sunday
+image: /static/img/markus-spiske-rwkhlvk-bsm-unsplash.jpg
+imagecredit: Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/internet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ---
-<small>Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/internet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</small>
-
 *"Big tech is bad!"*
 
 *"Terrorists have assembled on social media!"*
