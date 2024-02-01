@@ -36,13 +36,6 @@
     <item>
       <title>{{ post.data.title }}</title>
       <description>{{ post.data.description }}</description>
-      <content type="html">
-      {%- if normalizeAbsoluteUrls -%}
-        {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
-      {%- else -%}
-        {{ post.templateContent }}
-      {%- endif -%}
-    </content>
       <guid>{{ absolutePostUrl }}</guid>
       <link>{{ absolutePostUrl }}</link>
       <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
