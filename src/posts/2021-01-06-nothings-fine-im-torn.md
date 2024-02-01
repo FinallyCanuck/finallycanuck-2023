@@ -6,9 +6,9 @@ featuredImage: /img/uploads/anthony-delanoix-cfi7_hcxecu-unsplash.jpg
 tags:
   - London
   - Wednesday
+image: /static/img/anthony-delanoix-cfi7_hcxecu-unsplash.jpg
+imagecredit: Photo by <a href="https://unsplash.com/@anthonydelanoix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony DELANOIX</a> on <a href="https://unsplash.com/s/photos/london?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ---
-<small>Photo by [Anthony DELANOIX](https://unsplash.com/@anthonydelanoix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/london?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</small>
-
 My relationship with London is messy. Moving here in 2015 was a dream come true. It was a difficult start but not unexpected when you're in a completely new place and have to learn how to navigate its differences.
 
 Over time, I met a great group of friends to make the experience much better. Now, I'm torn.
