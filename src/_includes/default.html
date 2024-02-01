@@ -16,8 +16,13 @@
       property="og:description"
       content="{{ description or settings.description }}"
     />
-    <meta property="og:image" content="{{ image or settings.image }}" />
-    {% if not image %} <meta property="og:image:type" content="image/png" />
+
+
+    {% if image %}
+    <meta property="og:image" content="{{ image | htmlBaseUrl('https://finallycanuck.com/') }}" />
+    {% else %}
+    <meta property="og:image" content="{{ settings.image }}" />
+    <meta property="og:image:type" content="image/png" />
     <meta property="og:image:alt" content="FinallyCanuck.com icon" />
     {% endif %}
 
