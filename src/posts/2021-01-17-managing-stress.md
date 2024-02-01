@@ -6,9 +6,9 @@ featuredImage: /img/uploads/markus-winkler-trcafmv5vk-unsplash.jpg
 tags:
   - stress
   - Sunday
+image: /static/img/markus-winkler-trcafmv5vk-unsplash.jpg
+imagecredit: Photo by <a href="https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Winkler</a> on <a href="https://unsplash.com/s/photos/stress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ---
-<small>Photo by [Markus Winkler](https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/stress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</small>
-
 I don't handle stress well anymore. The slightest inconvenience sets me into a near-toddler-level tantrum at times. It's disturbing.
 
 I've been working to understand my inability to handle any amount of adversity. Part of me is looking for ultimate peace and calm, but I never seem to find it. I don't want medication to be the answer but I'm fearing more and more as this may be necessary. I've worked my way off medication in 2019 and going back feels like a failure. With the current state of the NHS, I don't think I can get time with a psychiatrist to find a solution, especially in the middle of the pandemic.
