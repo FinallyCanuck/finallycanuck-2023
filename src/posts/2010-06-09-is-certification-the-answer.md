@@ -1,11 +1,10 @@
 ---
-title: "Is certification the answer?"
+title: Is certification the answer?
 date: 2010-06-09
-categories: 
-  - "daily-thoughts"
-  - "wednesday"
+categories:
+  - daily-thoughts
+  - wednesday
 ---
-
 In an environment where professionals have varying degrees of education and experience, it can be difficult for an employer to know what they are getting when they choose a new employee. To solve for this, many professionals obtain certification in one or more aspects of their field. Is this the answer to standardizing skills?
 
 In my case, I have a number of options based on my experience and areas of interest. Here are just some of them.
