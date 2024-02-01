@@ -1,12 +1,11 @@
 ---
-title: "Following the rules"
+title: Following the rules
 date: 2010-05-26
-categories: 
-  - "wednesday"
-tags: 
-  - "rules"
+categories:
+  - wednesday
+tags:
+  - rules
 ---
-
 (I'm back after spending a week in central Florida with the Mouse.)
 
 * * *
