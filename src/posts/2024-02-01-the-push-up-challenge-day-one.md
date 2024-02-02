@@ -2,7 +2,7 @@
 title: The Push-Up Challenge - Day One
 description: Today’s target is 49 push-ups, for the 4.9 times increased likelihood of poor mental health among those experiencing a low sense of community.
 author: ""
-date: 2024-02-01T19:19
+date: 2024-02-01T19:19:00-05:00
 image: /static/img/CA DAY 1.jpg
 imagecredit: ""
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 And, now it begins. The first goal is 49 push-ups. About to do those now.
 
-Support or learn more at [The Push-Up Challenge](https://www.thepushupchallenge.ca/fundraiser/peterrandazzo/the-push-up-challenge)
+Support or learn more at [The Push-Up Challenge](https://www.thepushupchallenge.ca/fundraiser/peterrandazzo/the-push-up-challenge).
 
 ## Neighbours
 ### Day 1: 49 push-ups
