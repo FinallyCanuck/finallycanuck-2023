@@ -2,13 +2,15 @@
 title: The Push-Up Challenge - Day Two
 description: Today’s target is 54 push-ups, representing the 54% of children in foster care in Canada who are Indigenous – despite making up only 8% of Canada’s child population.
 author: ""
-date: 2024-02-02T21:40
+date: 2024-02-02T21:40:00-05:00
 image: /static/img/CA DAY 2.jpg
 imagecredit: ""
 tags:
   - friday
 ---
 Five more push-up added for today's batch. Taking the set in batches of ten is working. I think I'll stick with that. I can get them done in about three minutes. Not bad.
+
+Support or learn more at [The Push-Up Challenge](https://www.thepushupchallenge.ca/fundraiser/peterrandazzo/the-push-up-challenge).
 
 ## Indigenous Mental Health
 ### Day 2: 54 push-ups
