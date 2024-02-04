@@ -2,13 +2,13 @@
 title: The Push-Up Challenge - Day Three
 description: Today’s target is 55 push-ups, for the 5 out of 5 Canadians who can and should do things to look after their mental wellbeing.
 author: ""
-date: 2024-02-03T20:43
+date: 2024-02-03T20:43:00-05:00
 image: /static/img/CA DAY 3.jpg
 imagecredit: ""
 tags:
   - saturday
 ---
-So, I can handle 55 push ups, and tomorrow is a rest day. I will appreciate the rest, that's for certain.
+So, I can handle 55 push-ups, and tomorrow is a rest day. I will appreciate the rest, that's for certain.
 
 Support or learn more at [The Push-Up Challenge](https://www.thepushupchallenge.ca/fundraiser/peterrandazzo/the-push-up-challenge).
 
