@@ -3,7 +3,7 @@ title: The Push-Up Challenge - Day Five
 description: Today’s target is 50 push ups, for the 5 minutes per day of mindfulness that has been shown to reshape your mood.
 author: ""
 date: 2024-02-06T04:46:00.000Z
-image: /static/img/CA DAY 3.jpg
+image: /static/img/CA DAY 5.jpg
 imagecredit: ""
 tags:
   - monday
