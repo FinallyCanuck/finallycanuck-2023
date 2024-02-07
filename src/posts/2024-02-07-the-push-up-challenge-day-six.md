@@ -10,6 +10,8 @@ tags:
 ---
 This one's really late today. I'm also falling behind on my push-ups. Tomorrow will be a make-up day.
 
+Support or learn more at [The Push-Up Challenge](https://www.thepushupchallenge.ca/fundraiser/peterrandazzo/the-push-up-challenge).
+
 ## 2SLGBTQI+ Mental Health
 ### Day 6: 60 push-ups
 
