@@ -13,7 +13,7 @@ Support or learn more at [The Push-Up Challenge](https://www.thepushupchallenge.
 ## Workplace Mental Health
 ### Day 8: 76 push-ups
 
-Today’s target is 76 push-ups, for the 76% of Canadians who say they would be supportive of colleagues who may be experiencing mental illness.
+Today’s target is 76 push-ups, for the **76% of Canadians who say they would be supportive of colleagues who may be experiencing mental illness**.
 
 Despite this, the stigma around mental health conditions still persists. Three-quarters (75%) of working Canadians say they would either be reluctant to admit (48%) or would not admit (27%) to a boss or coworker that they were experiencing a mental illness.
 
