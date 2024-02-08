@@ -2,10 +2,8 @@ backend:
   # Use netlify identity as backend
   name: github
   repo: FinallyCanuck/finallycanuck-2023
-  branch: master
-  ### enable below lines for github integration ###
-  # name: github
-  # repo: surjithctly/neat-starter
+  branch: main
+
 media_folder: "src/static/img"
 public_folder: "/static/img"
 logo_url: https://finallycanuck.com/favicon.ico
