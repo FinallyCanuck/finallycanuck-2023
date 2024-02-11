@@ -21,6 +21,12 @@ prism: true
   {% endif %}
   <article class="prose lg:prose-xl my-4 mx-auto">{{ content | safe }}</article>
 
+  {# Get the webmention count for the current page #}
+  {%- set currentPostMentionCount = webmentions | webmentionCountForPage -%}
+  {% if currentPostMentionCount > 0 %}
+    {% include 'webmentions.njk' %}
+  {% endif %}
+
   <script src="https://utteranc.es/client.js"
     repo="FinallyCanuck/finallycanuck-2023"
     issue-term="url"

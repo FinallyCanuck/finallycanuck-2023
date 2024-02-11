@@ -4,6 +4,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const Webmentions = require("eleventy-plugin-webmentions");
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -21,6 +22,12 @@ module.exports = function (eleventyConfig) {
 
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
+
+  // Webmentions
+  eleventyConfig.addPlugin(Webmentions, {
+    domain: "finallycanuck.com",
+    token: "_XoGJPfZriP8O1_4tH2Ymg",
+  });
 
   // To Support .yaml Extension in _data
   // You may remove this if you can use JSON
