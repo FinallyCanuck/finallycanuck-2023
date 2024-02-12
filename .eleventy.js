@@ -4,7 +4,6 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const Webmentions = require("eleventy-plugin-webmentions");
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -20,22 +19,51 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // Webmentions filter
+  eleventyConfig.addFilter('webmentionsByUrl', function(webmentions, url) {
+    const allowedTypes = ['in-reply-to', 'like-of', 'repost-of']
+
+    const data = {
+        'like-of': [],
+        'repost-of': [],
+        'in-reply-to': [],
+    }
+
+    const hasRequiredFields = entry => {
+        const { author, published, content } = entry
+        return author.name && published && content
+    }
+
+    const filtered = webmentions
+        .filter(entry => entry['wm-target'] === `https://finallycanuck.com/${url}`)
+        .filter(entry => allowedTypes.includes(entry['wm-property']))
+
+    filtered.forEach(m => {
+        if (data[m['wm-property']])
+        {
+            const isReply = m['wm-property'] === 'in-reply-to'
+            const isValidReply = isReply && hasRequiredFields(m)
+            if (isReply)
+            {
+                if (isValidReply)
+                {
+                    m.sanitized = sanitizeHTML(m.content.html)
+                    data[m['wm-property']].unshift(m)
+                }
+
+                return
+            }
+
+            data[m['wm-property']].unshift(m)
+        }
+    })
+
+    return data
+}),
+ 
+
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
-
-  // Webmentions
-  eleventyConfig.addPlugin(Webmentions, {
-    domain: "finallycanuck.com",
-    token: "_XoGJPfZriP8O1_4tH2Ymg",
-    mentionTypes: {
-      likes: ["like-of"],
-      reposts: ["repost-of"],
-      comments: [
-        "mention-of",
-        "in-reply-to"
-      ]
-    },  
-  });
 
   // To Support .yaml Extension in _data
   // You may remove this if you can use JSON

@@ -1,4 +1,10 @@
 <div id="webmentions">
-  <h3>{{ currentPostMentionCount }} Response{%- if (currentPostMentionCount !== 1) %}s{% endif -%}&nbsp;across the web</h3>
-  <p class="italic">Learn more about <a href="https://indieweb.org/Webmention" target="_blank">Webmentions</a>.
+{% if mentions['like-of']|length %}
+    <h4>Likes</h4>
+    <div class="webmentions--likeboost">
+        {%- for like in mentions['like-of'] %}
+            <a target="_blank" rel="noopener" href="{{like.author.url}}"><img src="{{like.author.photo}}" title="{{like.author.name}}"></a>
+        {% endfor%}
+    </div>
+{% endif %}
 </div>
