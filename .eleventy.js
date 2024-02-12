@@ -27,6 +27,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(Webmentions, {
     domain: "finallycanuck.com",
     token: "_XoGJPfZriP8O1_4tH2Ymg",
+    mentionTypes: {
+      likes: ["like-of"],
+      reposts: ["repost-of"],
+      comments: [
+        "mention-of",
+        "in-reply-to"
+      ]
+    },  
   });
 
   // To Support .yaml Extension in _data

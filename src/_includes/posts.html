@@ -19,19 +19,12 @@ prism: true
   {% if imagecredit %}<p class="text-center text-xs">{{ imagecredit | safe }}</p>{% endif %}
 
   {% endif %}
-  <article class="prose lg:prose-xl my-4 mx-auto">{{ content | safe }}</article>
-
-  {# Get the webmention count for the current page #}
-  {%- set currentPostMentionCount = webmentions | webmentionCountForPage -%}
-  {% if currentPostMentionCount > 0 %}
-    {% include 'partials/webmentions.njk' %}
-  {% endif %}
-
-  <script src="https://utteranc.es/client.js"
-    repo="FinallyCanuck/finallycanuck-2023"
-    issue-term="url"
-    theme="boxy-light"
-    crossorigin="anonymous"
-    async>
-  </script>
+  <article class="prose lg:prose-xl my-4 mx-auto">
+    {{ content | safe }}
+    {# Get the webmention count for the current page #}
+    {%- set currentPostMentionCount = webmentions | webmentionCountForPage -%}
+    {% if currentPostMentionCount > 0 %}
+      {% include 'partials/webmentions.njk' %}
+    {% endif %}
+  </article>
 </div>
