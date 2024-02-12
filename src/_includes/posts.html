@@ -24,7 +24,7 @@ prism: true
   {# Get the webmention count for the current page #}
   {%- set currentPostMentionCount = webmentions | webmentionCountForPage -%}
   {% if currentPostMentionCount > 0 %}
-    {% include 'webmentions.njk' %}
+    {% include 'partials/webmentions.njk' %}
   {% endif %}
 
   <script src="https://utteranc.es/client.js"
