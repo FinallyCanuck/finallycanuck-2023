@@ -25,8 +25,8 @@ To address the higher rates of suicide among men, we must recognize that cultura
 
 #### Learn More:
 
-Buddy Up: [https://www.buddyup.ca/ ](https://www.buddyup.ca/ )
-Spot the signs: [https://ca.movember.com/mens-health/spot-the-signs ](https://ca.movember.com/mens-health/spot-the-signs )
-Canadian Men’s Health Foundation: [https://menshealthfoundation.ca/](https://menshealthfoundation.ca/ )
-HeadsUpGuys: [https://www.headsupguys.org/](https://www.headsupguys.org/ )
-Men’s Sheds Canada: [https://www.mensshedscanada.ca](https://www.mensshedscanada.ca)
+- Buddy Up: [https://www.buddyup.ca/ ](https://www.buddyup.ca/ )
+- Spot the signs: [https://ca.movember.com/mens-health/spot-the-signs ](https://ca.movember.com/mens-health/spot-the-signs )
+- Canadian Men’s Health Foundation: [https://menshealthfoundation.ca/](https://menshealthfoundation.ca/ )
+- HeadsUpGuys: [https://www.headsupguys.org/](https://www.headsupguys.org/ )
+- Men’s Sheds Canada: [https://www.mensshedscanada.ca](https://www.mensshedscanada.ca)
