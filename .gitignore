@@ -1,5 +1,7 @@
 _site/
 _tmp/
+_webmentioncache/
+
 .DS_Store
 node_modules/
 .vscode/
@@ -7,6 +9,7 @@ node_modules/
 package-lock.json
 .env
 .cache
+
 
 # Local Netlify folder
 .netlify
