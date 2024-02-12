@@ -1,5 +1,5 @@
 ---
-title: The Push-Up Challenge - Date 12
+title: The Push-Up Challenge - Day 12
 description: Today’s target is 75 push-ups, representing the fact that approximately 75% of lives lost to suicide are male.
 author: ""
 date: 2024-02-12T20:03:00.000Z
