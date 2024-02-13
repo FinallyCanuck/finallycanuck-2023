@@ -24,10 +24,12 @@ prism: true
     {# Get the webmention count for the current page #}
     {%- set currentPostMentionCount = webmentions | webmentionCountForPage -%}
     {% if currentPostMentionCount > 0 %}
-      {% include 'partials/webmentions.njk' %}
+      {% include 'partials/webmentions.html' %}
     {% else %}
       <hr />
       <p class="italic">Likes, comments, and reposts are managed with Webmentions. Learn more about <a href="https://indieweb.org/Webmention" target="_blank">Webmentions</a>.</p>
     {% endif %}
+  
   </article>
+  
 </div>

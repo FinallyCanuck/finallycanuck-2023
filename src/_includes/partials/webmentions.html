@@ -1,0 +1,43 @@
+<div id="webmentions">
+  <h3>{{ currentPostMentionCount }} response{%- if (currentPostMentionCount !== 1) %}s{% endif -%}&nbsp;from across the web</h3>
+
+{# Get the webmentions for a specific page #}
+{%- set postMentions = webmentions | webmentionsForPage(post.url) -%}
+
+{% if postMentions.likes %}
+  <h4>Likes</h4>
+  <div class="flex gap-x-4">
+  {% for webmention in postMentions.likes %}
+  <div>
+    <a {% if webmention.author.url %}href="{{ webmention.author.url }}"{% endif %} target="_blank" rel="noopener noreferrer" title="{{ webmention.author.name }}" class="inline">
+      {% if webmention.author.photo %}
+        <img src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48" loading="lazy" class="rounded-full">
+      {% else %}
+        <img src="{{ '/assets/images/avatar-default.jpg' | url }}" alt="" width="48" height="48" class="rounded-full border">
+      {% endif %}
+    </a>
+  </div>
+  {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if postMentions.comments %}
+  <h4>Comments</h4>
+  {% for webmention in postMentions.comments %}
+  <div class="flex gap-x-4">
+    <div class="flex-none">
+      <a {% if webmention.author.url %}href="{{ webmention.author.url }}"{% endif %} target="_blank" rel="noopener noreferrer" title="{{ webmention.author.name }}">
+        {% if webmention.author.photo %}
+            <img src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48" loading="lazy" class="rounded-full">
+        {% else %}
+            <img src="{{ '/assets/images/avatar-default.jpg' | url }}" alt="" width="48" height="48">
+        {% endif %}
+      </a>
+    </div>
+  <div class="flex-initial align-middle">{{ webmention.content.html | safe }}</div>
+  </div>
+{% endfor %}
+{% endif %}
+  <hr />
+  <p class="italic">Learn more about <a href="https://indieweb.org/Webmention" target="_blank">Webmentions</a>.
+</div>
