@@ -26,7 +26,7 @@ Behind the statistics lie stories of pain and strength, a struggle that demands 
 
 If you’re struggling with suicidal thoughts, remember that help is available. Reach out to a trusted friend, family member, or mental health professional. You don’t have to face your struggles alone and your presence matters.
 
-In times of crisis, call or text 9-8-8 (Toll free 24/7). Learn more at  [988.ca](https://988.ca/)
+In times of crisis, call or text 9-8-8 (Toll free 24/7). Learn more at  [988.ca](https://988.ca/).
 
 You can also contact Wellness Together Canada if you need support urgently or are worried about someone else. Text WELLNESS to 741741 (adults) or text WELLNESS to 686868 (youth) or visit [wellnesstogether.ca](https://www.wellnesstogether.ca/en-ca/crisis) 
 
