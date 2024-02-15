@@ -1,9 +1,10 @@
-<div id="webmentions">
+<div id="webmentions" class="border-solid border-2 rounded-lg px-4 border-red-700">
   <h3>{{ currentPostMentionCount }} response{%- if (currentPostMentionCount !== 1) %}s{% endif -%}&nbsp;from across the web</h3>
 
 {# Get the webmentions for a specific page #}
 {%- set postMentions = webmentions | webmentionsForPage(post.url) -%}
-
+<div class="grid grid-cols-1 sm:grid-cols-2">
+<div id="likes">
 {% if postMentions.likes %}
   <h4>Likes</h4>
   <div class="flex gap-x-4">
@@ -20,7 +21,9 @@
   {% endfor %}
   </div>
   {% endif %}
+</div>
 
+<div id="comments">
   {% if postMentions.comments %}
   <h4>Comments</h4>
   {% for webmention in postMentions.comments %}
@@ -38,6 +41,8 @@
   </div>
 {% endfor %}
 {% endif %}
+</div>
+</div>
   <hr />
-  <p class="italic">Learn more about <a href="https://indieweb.org/Webmention" target="_blank">Webmentions</a>.
+  <p class="italic"><a href="/responses">Learn more about how responses are collected</a>.</p>
 </div>
