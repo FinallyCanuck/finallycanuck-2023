@@ -3,12 +3,12 @@ layout: default
 prism: true
 ---
 
-<div class="container max-w-4xl mt-6 px-6">
+<div class="container max-w-4xl mt-6 px-6" itemscope itemtype="https://schema.org/BlogPosting" /></div>>
   <div class="pb-5 mb-5 border-b border-gray-100">
-    <h1 class="font-bold text-5xl">{{title}}</h1>
+    <h1 class="font-bold text-5xl" itemprop="name">{{title}}</h1>
     <p class="text-center text-base leading-6 font-medium text-gray-500">
       <time>
-        {{ date | readableDate }} {% if author %} by <a>{{ author }}</a>{% endif
+        {{ date | readableDate }} {% if author %} by <a itemprop="author">{{ author }}</a>{% endif
         %}
       </time>
     </p>
@@ -19,7 +19,7 @@ prism: true
   {% if imagecredit %}<p class="text-center text-xs">{{ imagecredit | safe }}</p>{% endif %}
 
   {% endif %}
-  <article class="prose lg:prose-xl my-4 mx-auto">
+  <article class="prose lg:prose-xl my-4 mx-auto" itemprop="articleBody">
     {{ content | safe }}
     {# Get the webmention count for the current page #}
     {%- set currentPostMentionCount = webmentions | webmentionCountForPage -%}

@@ -30,13 +30,6 @@
 
     {% block head %}{% endblock %}
     <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
-    {% if prism == true %}
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/static/css/prism-tomorrow.css"
-    />
-    {% endif %}
     <link href="https://github.com/finallycanuck" rel="me" />
     <link href="https://tech.lgbt/@finallycanuck" rel="me" />
     <link
@@ -53,9 +46,6 @@
   <body class="selection:bg-red-100 selection:text-red-900">
     {% include "./partials/navbar.html" %} {{ content | safe }} {% include
     "./partials/footer.html" %}
-
-    <script src="/static/js/alpine.js"></script>
-
 
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6e823f8383f2469ca8d45f598989b20a"}'></script><!-- End Cloudflare Web Analytics -->
   </body>
